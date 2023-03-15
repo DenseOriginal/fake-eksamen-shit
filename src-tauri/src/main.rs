@@ -6,7 +6,7 @@
 #[tauri::command]
 async fn hello_world_command(_app: tauri::AppHandle) -> Result<String, String> {
     println!("I was invoked from JS!");
-    Err("Hello world from Tauri!".into())
+    Ok("Hello world from Tauri!".into())
 }
 
 fn main() {
