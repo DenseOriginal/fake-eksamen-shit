@@ -2,9 +2,9 @@
 name = "app"
 version = "0.1.0"
 description = "A Tauri App"
-authors = ["you"]
+authors = ["Tobias Clasen <sandalbanditten@tutanota.com>", "Mathias Bøttger <mathiasbottger@gmail>", "Anders Kok <ak.kornerup@gmail.com>"]
 license = ""
-repository = ""
+repository = "https://github.com/DenseOriginal/fake-eksamen-shit.git"
 default-run = "app"
 edition = "2021"
 rust-version = "1.57"
