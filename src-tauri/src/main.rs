@@ -10,8 +10,8 @@ async fn hello_world_command(_app: tauri::AppHandle) -> Result<String, String> {
 }
 
 #[tauri::command]
-async fn number_exponent_3 (number: i32) -> i32 {
-    number * number * number
+async fn number_exponent_3 (n: i32) -> i32 {
+    n * n * n
 }
 
 fn main() {
