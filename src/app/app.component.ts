@@ -19,6 +19,7 @@ export class AppComponent {
     if (this.tauriService.isTauri) {
       console.log('Run in Tauri');
       this.tauriService.callHelloWorld();
+      this.tauriService.exponent3(10);
     } else {
       console.log('Run in browser');
     }

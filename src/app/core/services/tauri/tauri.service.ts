@@ -17,4 +17,9 @@ export class TauriService {
     const text = await invoke('hello_world_command');
     console.log(text);
   }
+
+  async exponent3(n: number) {
+    const text = await invoke('number_exponent_3', { n });
+    console.log(text);
+  }
 }
